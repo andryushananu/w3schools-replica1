@@ -6,28 +6,25 @@ html
         link(rel="stylesheet", href="style.css")
     body
         header
-            a(href="/") Home
+            a.current(href="/") Home
             a(href="/html") HTML
             a(href="/css") CSS
             a(href="/javascript") JavaScript
         
-        nav  
-            h3 HTML and CSS
-            //- h3 ar trebui sa imi apara cu background gri
-            a(href="/html") Learn HTML
-            a(href="/css") Learn CSS
-            a(href="/javascript") Learn JavaScript
-        
         article
-
             h1 This is a replica of w3schools.com
-            //- in browser h1 ar trebui sa imi apara rosu
-            p I will learn HTML, CSS and JavaScript            
+            p I will learn HTML, CSS and JavaScript
             h2 HTML
             p HTML is the standard markup language for building Web pages. #[a(href='/html') Check it out]
             h2 CSS
             p The language for styling web pages. #[a(href='/css') See what hapens]
             h2 JavaScript
             p The language for programming web pages! #[a(href='/javascript') Discover JavaScript]
+        
+        nav  
+            h3 HTML and CSS
+            a(href="/html") Learn HTML
+            a(href="/css") Learn CSS
+            a(href="/javascript") Learn JavaScript
 
     footer &copy; 2019 nanu's first code!
