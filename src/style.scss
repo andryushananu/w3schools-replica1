@@ -8,6 +8,10 @@ h1 {
     --color-fruit-salad: #4caf50;
     --color-silver: #ccc;
 }
+h3 {
+    background-color: var(--color-silver)
+}
+
 * {
     box-sizing: border-box;
 }
