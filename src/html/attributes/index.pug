@@ -1,0 +1,20 @@
+extends ../../_component/layout/template
+block cool-config
+    -
+        var myTitle='Learn to code HTML Attributes for beginners';
+        var myDescription='Attributes provide additional information about HTML elements.';
+        var landingPage='HTML';
+        var activeLink='/html/attributes';
+
+
+block awesome-content
+    h1=myTitle
+    p=myDescription
+    ol(title='This is a list')
+        li All HTML elements can have attributes
+        li Attributes provide additional information about an element
+        li Attributes are always specified in the start tag
+        li Attributes usually come in name/value pairs like: name="value"
+    a(href="https://www.youtube.com/watch?v=qCyokdeZ6jI&list=PLlgRhtOkjmmBo5GJsUvclXs5mPIIsBczX&index=5") This link takes you on youtube video
+    p
+    img(src="http://lorempixel.com/400/200/", title="This image have a width - 400 px and a height - 200px")
