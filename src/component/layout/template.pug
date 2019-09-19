@@ -1,11 +1,11 @@
 doctype html
 html
-    //- var baseUrl = 'https://andryushananu.github.io/w3schools-replica1'
+    - var baseUrl = 'https://andryushananu.github.io/w3schools-replica1'
     block cool-config
     head
         title=myTitle
         meta(name="description", content=myDescription)
-        link(rel="stylesheet", href='/style.css')
+        link(rel="stylesheet", href='${baseUrl}/style.css')
     body
         include ../header/header        
         article
